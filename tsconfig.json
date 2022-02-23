@@ -1,22 +1,25 @@
 {
   "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      // 这样就可以对 `this` 上的数据属性进行更严格的推断
-      "strict": true,
-      // 不随便使用any 
-      "noImplicitAny": true,
-      // 不随便使用this
-      "noImplicitThis": true,
-      // 检查null的使用
-      "strictNullChecks": true,
-      "jsx": "preserve",
-      "moduleResolution": "node"
+    "target": "esnext",
+    "module": "esnext",
+    // 这样就可以对 `this` 上的数据属性进行更严格的推断
+    "strict": true,
+    // 不随便使用any 
+    "noImplicitAny": true,
+    // 不随便使用this
+    "noImplicitThis": true,
+    // 检查null的使用
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "types": [
+      "element-plus/global"
+    ]
   },
   "include": [
-      "src/**/*.ts",
-      "src/**/*.d.ts",
-      "src/**/*.vue",
-      "main.d.ts"
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "main.d.ts"
   ]
 }

@@ -1,6 +1,7 @@
 <template>
   <div>count={{ count }}</div>
   <button @click="increment">增加</button>
+  <el-button>test</el-button>
 </template>
 
 <script setup lang="ts">
